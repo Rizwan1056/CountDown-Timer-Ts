@@ -1,0 +1,27 @@
+{
+  "name": "@rizwan_ahmed/countdown-timer",
+  "version": "2.1.1",
+  "description": "Count down Timer",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "count-down-timer": "index.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Rizwan Ahmed Soomro",
+  "license": "MIT",
+  "dependencies": {
+    "@rizwan_ahmed/countdown-timer": "^1.1.0",
+    "date-fns": "^3.6.0",
+    "inquirer": "^9.2.23"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
